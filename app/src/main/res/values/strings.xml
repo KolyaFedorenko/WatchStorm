@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">MovieReviewer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_year">Movie Year</string>
+    <string name="movie_tags">Movie Tags</string>
+    <string name="add_tag">Add Tag</string>
+    <string name="plot_rating">Plot</string>
+    <string name="cast_rating">Cast</string>
+    <string name="visual_rating">Visual</string>
+    <string name="save_rating">Save Rating For This Movie</string>
+    <string name="watch_storm">WatchStorm</string>
+    <string name="select_image">Select Image</string>
+    <string name="test_average_rating">60%</string>
+    <string name="averageRating">Average Rating:</string>
+    <string name="movie_description">Movie Description</string>
+    <string name="your_average_rating">Your Average Rating</string>
+    <string name="audience_average_rating">Audience Average Rating</string>
+    <string name="edit_movie">Edit this movie</string>
+    <string name="delete_movie">Delete this movie</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="status">Status</string>
+    <string name="my_favorite_movies">My Favorite Movies</string>
+    <string name="verify_my_account">Verify my account</string>
+    <string name="change_password">Change my password</string>
+    <string name="delete_my_account">Delete my account</string>
+    <string name="how_to_use_this_app">How to use this app?</string>
+    <string name="account_deleting">Account Deleting</string>
+    <string name="account_deleting_caution">Are you sure you want to delete your account?
+        All information associated with your account will be deleted.</string>
+    <string name="account_deleting_instruction">If you really want to delete your account,
+        please enter your username in the text field below and long press on it</string>
+    <string name="deleting_confirmation">I really want to delete my account</string>
+    <string name="your_username">Your Username</string>
+    <string name="password_change">Password Change</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="password_change_instruction">Enter a new password in the text field
+        below and confirm it, then click the change password button</string>
+    <string name="tag">\@%1$s</string>
+    <string name="verification">Verification</string>
+    <string name="about_verified_status">Verified status can be obtained by users who have
+        rated at least 100 movies. The relationship between the number of movies you have
+        rated and the number of movies you need to get verified status is shown below:</string>
+    <string name="relation">%1$d/100</string>
+    <string name="account_already_verified">Your account has already been verified. If you want
+        to remove the verified status, click on the button below.</string>
+    <string name="remove_the_verified_status">Remove the verified status</string>
+    <string name="instruction">Instruction</string>
+    <string name="adding_a_movie">Adding a movie</string>
+    <string name="adding_a_movie_info">To add a movie, go to the \"Add\" tab. You can enter
+        the title of the movie and click the search button to search for the movie in the
+        movie database and fill in some fields, or you can enter all the values ​​yourself.
+        After filling in all the fields, click on the "Save Rating For This Movie" button
+        to add the movie to your movie list.</string>
+    <string name="movies_list">Movies List</string>
+    <string name="movies_list_info">To view a list of movies you have rated, go to the
+        \"Movies\" tab. It displays a list of movies you have rated with all the information
+        about each movie. If you want to remove any movie from this list, long press on it
+        and click \"Delete this movie\" in the dialog that opens.Please note that when you
+        remove a movie from the list of movies you have rated, there is no way
+        to restore it.</string>
+    <string name="profile">Profile</string>
+    <string name="profile_info">To view your profile, go to the \"Profile\" tab. You can
+        change your profile picture by long pressing on it. Your profile also displays a
+        list of your favorite movies (movies with an average rating of 100%), as well as
+        items to change some of your profile settings. To change any of your profile settings,
+        click on the appropriate item and follow the instructions described there.</string>
+    <string name="search">Search</string>
+    <string name="found_movie_info">%1$s, %2$s</string>
+</resources>

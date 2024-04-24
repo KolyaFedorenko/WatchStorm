@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MovieView">
+        <attr name="imagePath" format="string"/>
+        <attr name="movie_title" format="string"/>
+        <attr name="movie_year" format="string"/>
+        <attr name="movie_description" format="string"/>
+        <attr name="composite_rating" format="integer"/>
+        <attr name="visual_rating" format="integer"/>
+        <attr name="cast_rating" format="integer"/>
+        <attr name="plot_rating" format="integer"/>
+        <attr name="audience_rating" format="integer"/>
+    </declare-styleable>
+</resources>
