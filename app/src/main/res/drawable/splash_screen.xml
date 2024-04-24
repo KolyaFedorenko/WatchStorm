@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@color/ic_watchstorm_background"/>
+    <item android:drawable="@color/ic_watchstorm_new_background"/>
 
     <item>
         <bitmap
-            android:src="@mipmap/ic_watchstorm_foreground"
+            android:src="@mipmap/ic_watchstorm_new_foreground"
             android:gravity="center"/>
     </item>
 </layer-list>
