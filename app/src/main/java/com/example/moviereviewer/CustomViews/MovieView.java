@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -29,8 +30,8 @@ public class MovieView extends ConstraintLayout {
     private TextView rvMovieTitle, rvMovieYear, rvMovieDescription;
     private TextView rvVisualRatingValue, rvCastRatingValue, rvPlotRatingValue;
     private TextView rvYourAverageRatingValue, rvAudienceAverageRatingValue;
-    private LinearProgressIndicator rvVisualRating, rvCastRating, rvPlotRating;
-    private LinearProgressIndicator rvYourAverageRating, rvAudienceAverageRating;
+    private ProgressBar rvVisualRating, rvCastRating, rvPlotRating;
+    private ProgressBar rvYourAverageRating, rvAudienceAverageRating;
     private ConstraintLayout rvConstraintDescription, rvConstraintMovie;
 
     private Context context;

@@ -5,6 +5,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -20,7 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 public class VerificationDialog extends CustomDialog {
 
     private TextView dialogTextAboutVerification, dialogTextRelation;
-    private LinearProgressIndicator dialogProgressVerification;
+    private ProgressBar dialogProgressVerification;
     private Button dialogButtonVerify;
     private DatabaseReference databaseReference;
     private String login, userVerificationStatus;
