@@ -72,4 +72,5 @@
         click on the appropriate item and follow the instructions described there.</string>
     <string name="search">Search</string>
     <string name="found_movie_info">%1$s, %2$s</string>
+    <string name="watch_storm_web">WatchStormWeb</string>
 </resources>
