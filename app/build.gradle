@@ -49,5 +49,5 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
     implementation 'com.android.volley:volley:1.2.1'
     implementation 'com.google.code.gson:gson:2.9.0'
-
+    implementation 'com.github.gongw:verifycodeview:1.0.2'
 }

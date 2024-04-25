@@ -27,6 +27,7 @@ import com.example.moviereviewer.Dialogs.ChangePasswordDialog;
 import com.example.moviereviewer.Adapters.FavoriteMovieAdapter;
 import com.example.moviereviewer.Dialogs.InstructionDialog;
 import com.example.moviereviewer.DataClasses.Movie;
+import com.example.moviereviewer.Dialogs.WatchStormWebDialog;
 import com.example.moviereviewer.R;
 import com.example.moviereviewer.Dialogs.VerificationDialog;
 import com.example.moviereviewer.ViewableFragment;
@@ -60,7 +61,7 @@ public class ProfileFragment extends Fragment implements ViewableFragment {
     private Button buttonSingOut;
     private TextView textLogin, textTag;
     private CircleImageView imageProfile;
-    private ConstraintLayout clFavoriteMovies, clDeleteMyAccount;
+    private ConstraintLayout clFavoriteMovies, clDeleteMyAccount, clWatchStormWeb;
     private ConstraintLayout clChangePassword, clVerification, clAppUsage;
     private RecyclerView recyclerViewFavorites;
     private LottieAnimationView lottieVerifiedUser;
@@ -109,6 +110,7 @@ public class ProfileFragment extends Fragment implements ViewableFragment {
         clVerification = view.findViewById(R.id.clVerification);
         lottieVerifiedUser = view.findViewById(R.id.lottieVerifiedUser);
         clAppUsage = view.findViewById(R.id.clAppUsage);
+        clWatchStormWeb = view.findViewById(R.id.clWatchStormWeb);
     }
 
     @Override
@@ -193,6 +195,14 @@ public class ProfileFragment extends Fragment implements ViewableFragment {
             public void onClick(View v) {
                 new InstructionDialog()
                         .createDialog(getActivity(), true, R.layout.dialog_instruction);
+            }
+        });
+
+        clWatchStormWeb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new WatchStormWebDialog(login)
+                        .createDialog(getActivity(), true, R.layout.dialog_watchstormweb);
             }
         });
 
