@@ -3,9 +3,10 @@
 
     <item android:drawable="@color/ic_watchstorm_new_background"/>
 
-    <item>
-        <bitmap
-            android:src="@mipmap/ic_watchstorm_new_foreground"
-            android:gravity="center"/>
+    <item
+        android:drawable="@drawable/watchstorm_icon2"
+        android:width="150dp"
+        android:height="150dp"
+        android:gravity="center">
     </item>
 </layer-list>
