@@ -199,7 +199,7 @@ public class ProfileFragment extends Fragment implements ViewableFragment {
         textLogin.setText(login);
         Glide.with(getActivity())
                 .load(FirebaseStorage.getInstance().getReference()
-                .child(login + "/Images/ProfileImage"))
+                .child(login + "/Images/ProfileImage.jpg"))
                 .into(imageProfile);
 
         textTag.setText(getActivity().getString(R.string.tag, login).toLowerCase());
@@ -252,7 +252,7 @@ public class ProfileFragment extends Fragment implements ViewableFragment {
         if (resultCode == Activity.RESULT_OK) {
             Uri selectedImage = data.getData();
             imageProfile.setImageURI(selectedImage);
-            storageReference.child("ProfileImage").putFile(selectedImage);
+            storageReference.child("ProfileImage.jpg").putFile(selectedImage);
         }
     }
 }
