@@ -46,6 +46,7 @@ public class FavoriteMovieAdapter extends RecyclerView.Adapter<FavoriteMovieAdap
         if (favoriteMovie.getImagePath().contains("w500")){
             Glide.with(context)
                     .load(favoriteMovie.getImagePath())
+                    .placeholder(R.drawable.movie_placeholder4)
                     .centerCrop()
                     .into(holder.rvFavoriteMovieImage);
         }
@@ -53,6 +54,7 @@ public class FavoriteMovieAdapter extends RecyclerView.Adapter<FavoriteMovieAdap
             Glide.with(context)
                     .load(FirebaseStorage.getInstance().getReference()
                             .child(login + "/Images/" + favoriteMovie.getImagePath()))
+                    .placeholder(R.drawable.movie_placeholder4)
                     .centerCrop()
                     .into(holder.rvFavoriteMovieImage);
         }

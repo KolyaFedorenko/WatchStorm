@@ -45,11 +45,16 @@ public class MovieDialog extends CustomDialog {
     @Override
     public void useViews(Dialog dialog) {
         if (movie.getImagePath().contains("w500")){
-            Glide.with(dialog.getContext()).load(movie.getImagePath()).centerCrop().into(dialogMoviePoster);
+            Glide.with(dialog.getContext())
+                    .load(movie.getImagePath())
+                    .placeholder(R.drawable.movie_placeholder4)
+                    .centerCrop()
+                    .into(dialogMoviePoster);
         } else {
             Glide.with(dialog.getContext())
                     .load(FirebaseStorage.getInstance().getReference()
                             .child("KolyaFedorenko/Images/" + movie.getImagePath()))
+                    .placeholder(R.drawable.movie_placeholder4)
                     .centerCrop()
                     .into(dialogMoviePoster);
         }

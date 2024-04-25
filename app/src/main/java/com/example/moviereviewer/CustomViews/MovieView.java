@@ -122,13 +122,15 @@ public class MovieView extends ConstraintLayout {
             if (imagePath.contains("w500")){
                 Glide.with(context)
                         .load(imagePath)
-                        .placeholder(R.color.grayAccentLight)
+                        .placeholder(R.drawable.movie_placeholder4)
+                        .centerCrop()
                         .into(rvMovieImage);
             } else {
                 Glide.with(context)
                         .load(FirebaseStorage.getInstance().getReference()
                                 .child("KolyaFedorenko/Images/" + imagePath))
-                        .placeholder(R.color.grayAccentLight)
+                        .placeholder(R.drawable.movie_placeholder4)
+                        .centerCrop()
                         .into(rvMovieImage);
             }
         }
