@@ -56,18 +56,16 @@
             android:paddingHorizontal="20dp"
             android:animateLayoutChanges="true">
 
-            <com.google.android.material.progressindicator.LinearProgressIndicator
+            <ProgressBar
                 android:id="@+id/dialogProgressVerification"
+                style="@style/MacroHorizontalProgressBarStyle"
+                android:progressDrawable="@drawable/gradient_progress"
                 android:layout_width="166dp"
-                android:layout_height="wrap_content"
+                android:layout_height="5dp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:trackThickness="5dp"
-                android:progress="0"
-                app:trackColor="@color/progressBarBack"
-                app:indicatorColor="@color/yellow"
-                app:trackCornerRadius="50dp"/>
+                android:progress="0" />
 
             <TextView
                 android:id="@+id/dialogTextRelation"

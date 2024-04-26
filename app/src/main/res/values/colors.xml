@@ -2,13 +2,14 @@
 <resources>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorAccent">#FFFFFF</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
-    <color name="grayPrimary">#272727</color>
-    <color name="grayAccent">#424242</color>
-    <color name="grayAccentLight">#5A5A5A</color>
-    <color name="accentLightRipple">#777777</color>
+    <color name="grayPrimary">#141414</color>
+    <color name="grayAccent">#282828</color>
+    <color name="grayAccentLight">#3c3c3c</color>
+    <color name="accentLightRipple">#505050</color>
+    <color name="borderColor">#787878</color>
     <color name="yellow">#FFF553</color>
     <color name="progressBarBack">#323232</color>
     <color name="alphaWhite">#B3FFFFFF</color>
