@@ -1,4 +1,4 @@
-![WatchStorm Image](https://i.ibb.co/y41twQN/Watch-Storm-Image.jpg)
+![WatchStorm Image](https://i.ibb.co/TYT9d60/Watch-Storm-Image.jpg)
 # WatchStorm
 [![CodeFactor](https://www.codefactor.io/repository/github/kolyafedorenko/watchstormsecond/badge)](https://www.codefactor.io/repository/github/kolyafedorenko/watchstormsecond)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/60b72c3c67b94e57ab101d3e727a318a)](https://app.codacy.com/gh/KolyaFedorenko/WatchStormSecond/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
