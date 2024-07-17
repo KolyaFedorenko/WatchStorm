@@ -63,6 +63,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460016977857:android:c4ece795c2bcd023111140",
+        "android_client_info": {
+          "package_name": "com.kolyafedorenko.watchstorm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460016977857-no1tgov0jr5pbgck4anms7ho2eqe7lt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASRsC2d1Lts0xNBhpYZnscZq0aOWRusKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460016977857-no1tgov0jr5pbgck4anms7ho2eqe7lt9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"
