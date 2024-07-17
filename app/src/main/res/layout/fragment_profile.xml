@@ -72,8 +72,7 @@
                         app:layout_constraintTop_toBottomOf="@id/textLogin"
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="@string/status"
-                        android:textColor="@color/alphaWhite"
-                        android:layout_marginTop="2dp"/>
+                        android:textColor="@color/alphaWhite" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
