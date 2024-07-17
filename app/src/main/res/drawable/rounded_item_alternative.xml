@@ -9,6 +9,6 @@
         android:bottomLeftRadius="40dp"
         android:topLeftRadius="40dp"
         android:topRightRadius="40dp"/>
-    <solid android:width="2dip" android:color="@color/grayAccentLight"/>
+    <solid android:width="2dip" android:color="@color/accentLightRipple"/>
 
 </shape>

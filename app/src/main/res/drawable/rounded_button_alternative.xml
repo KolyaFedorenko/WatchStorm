@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--  res/drawable/rounded_edittext.xml -->
-<ripple android:color="@color/grayAccentLight"
+<ripple android:color="@color/grayAccent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@android:id/mask">
@@ -8,7 +8,7 @@
             android:shape="rectangle"
             android:padding="10dp">
 
-            <solid android:color="@color/grayAccentLight"/>
+            <solid android:color="@color/grayAccent"/>
             <corners
                 android:bottomRightRadius="40dp"
                 android:bottomLeftRadius="40dp"
@@ -27,7 +27,7 @@
                 android:bottomLeftRadius="40dp"
                 android:topLeftRadius="40dp"
                 android:topRightRadius="40dp"/>
-            <solid android:color="@color/buttonColor"/>
+            <solid android:color="@color/grayAccentLight"/>
 
         </shape>
     </item>

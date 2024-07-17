@@ -65,6 +65,7 @@ public class AuthorizationDialog extends CustomDialog {
                             }
                         } catch (Exception ignored) {
                             showToast(dialog,"Something went wrong. Maybe you haven't registered?");
+                            dialogButtonSignUp.setVisibility(View.VISIBLE);
                         }
                     }
 

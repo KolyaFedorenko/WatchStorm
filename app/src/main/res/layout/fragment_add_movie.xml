@@ -63,7 +63,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:background="@drawable/rounded_button_black"
                 android:drawableTop="@drawable/ic_baseline_search"
-                android:drawableTint="@color/black"
+                android:drawableTint="@color/white"
                 android:paddingTop="12dp"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -200,7 +200,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:background="@drawable/rounded_button_black"
             android:text="@string/save_rating"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_marginTop="10dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

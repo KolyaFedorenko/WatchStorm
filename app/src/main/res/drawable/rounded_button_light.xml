@@ -10,10 +10,10 @@
 
             <solid android:color="@color/grayAccentLight"/>
             <corners
-                android:bottomRightRadius="20dp"
-                android:bottomLeftRadius="20dp"
-                android:topLeftRadius="20dp"
-                android:topRightRadius="20dp"/>
+                android:bottomRightRadius="40dp"
+                android:bottomLeftRadius="40dp"
+                android:topLeftRadius="40dp"
+                android:topRightRadius="40dp"/>
         </shape>
     </item>
 
@@ -23,13 +23,12 @@
             android:padding="10dp">
 
             <corners
-                android:bottomRightRadius="20dp"
-                android:bottomLeftRadius="20dp"
-                android:topLeftRadius="20dp"
-                android:topRightRadius="20dp"/>
-            <solid android:color="@color/grayAccent"/>
+                android:bottomRightRadius="40dp"
+                android:bottomLeftRadius="40dp"
+                android:topLeftRadius="40dp"
+                android:topRightRadius="40dp"/>
+            <solid android:color="@color/buttonColorLight"/>
 
-            <stroke android:width="0.5dp" android:color="@color/accentLightRipple"/>
         </shape>
     </item>
 </ripple>

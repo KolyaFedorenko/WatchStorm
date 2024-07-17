@@ -284,8 +284,9 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:background="@drawable/rounded_button_black"
+                android:background="@drawable/rounded_button_alternative"
                 android:text="@string/sign_out"
+                android:textColor="@color/white"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginHorizontal="15dp"/>

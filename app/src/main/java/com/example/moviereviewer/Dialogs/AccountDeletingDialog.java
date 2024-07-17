@@ -67,8 +67,7 @@ public class AccountDeletingDialog extends CustomDialog {
             @Override
             public void afterTextChanged(Editable s) {
                 if (s.toString().equals(login)){
-                    dialogEditDeletingUser.setBackground(context.getDrawable(R.drawable.rounded_button_black));
-                    dialogEditDeletingUser.setTextColor(context.getColor(R.color.black));
+                    dialogEditDeletingUser.setBackground(context.getDrawable(R.drawable.rounded_button_light));
                     dialogEditDeletingUser.setFocusable(false);
                     dialogEditDeletingUser.setClickable(true);
                     dialogEditDeletingUser.setInputType(InputType.TYPE_NULL);
@@ -77,14 +76,15 @@ public class AccountDeletingDialog extends CustomDialog {
             }
         });
 
-        dialogEditDeletingUser.setOnClickListener(new View.OnClickListener() {
+        dialogEditDeletingUser.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
-            public void onClick(View v) {
+            public boolean onLongClick(View view) {
                 if (deletionConfirmed && listener != null) {
                     databaseReference.child(login).removeValue();
                     listener.onAccountDelete();
                     dialog.dismiss();
                 }
+                return false;
             }
         });
     }

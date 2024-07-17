@@ -188,7 +188,7 @@
                     android:layout_height="wrap_content"
                     app:layout_constraintTop_toBottomOf="@id/clVisualRating"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:id="@+id/rvTextCastRating"
@@ -228,7 +228,7 @@
                     android:layout_height="wrap_content"
                     app:layout_constraintTop_toBottomOf="@id/clCastRating"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:id="@+id/rvTextPlotRating"
