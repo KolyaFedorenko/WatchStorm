@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.kolyafedorenko.watchstorm.R;
 import com.github.gongw.VerifyCodeView;
@@ -60,6 +61,7 @@ public class WatchStormWebDialog extends CustomDialog {
             public void onClick(View v) {
                 try {
                     webCodeReference.setValue(webCode);
+                    Toast.makeText(dialog.getContext(),"Your 6-digit code has been saved", Toast.LENGTH_SHORT).show();
                     dialog.dismiss();
                 } catch (Exception ignored) { }
             }

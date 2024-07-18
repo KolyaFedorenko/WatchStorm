@@ -9,10 +9,9 @@
         android:roundIcon="@mipmap/ic_watchstorm_new_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.kolyafedorenko.watchstorm.Activities.MainActivity" android:windowSoftInputMode="adjustPan">
+        <activity android:exported="true" android:name="com.kolyafedorenko.watchstorm.Activities.MainActivity" android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

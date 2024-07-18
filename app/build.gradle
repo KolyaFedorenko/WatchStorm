@@ -13,7 +13,7 @@ android {
     defaultConfig {
         applicationId "com.kolyafedorenko.watchstorm"
         minSdkVersion 28
-        targetSdkVersion 30
+        targetSdkVersion 32
         versionCode 1
         versionName "1.6.2"
 

@@ -7,6 +7,7 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.kolyafedorenko.watchstorm.PasswordHasher;
 import com.kolyafedorenko.watchstorm.R;
@@ -68,6 +69,7 @@ public class ChangePasswordDialog extends CustomDialog {
                 try {
                     String hashedPassword = PasswordHasher.generatePasswordHash(dialogEditNewPassword.getText().toString());
                     passwordReference.setValue(hashedPassword);
+                    Toast.makeText(dialog.getContext(), "Your password has been changed", Toast.LENGTH_SHORT).show();
                     dialog.dismiss();
                 } catch (Exception ignored) { }
             }
