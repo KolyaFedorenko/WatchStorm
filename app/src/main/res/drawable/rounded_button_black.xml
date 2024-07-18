@@ -27,7 +27,7 @@
                 android:bottomLeftRadius="40dp"
                 android:topLeftRadius="40dp"
                 android:topRightRadius="40dp"/>
-            <solid android:color="@color/white"/>
+            <solid android:color="@color/buttonColor"/>
 
         </shape>
     </item>

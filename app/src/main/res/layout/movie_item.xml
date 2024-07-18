@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.moviereviewer.CustomViews.MovieView
+<com.kolyafedorenko.watchstorm.CustomViews.MovieView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/movieView"
@@ -8,4 +8,4 @@
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent">
-</com.example.moviereviewer.CustomViews.MovieView>
+</com.kolyafedorenko.watchstorm.CustomViews.MovieView>

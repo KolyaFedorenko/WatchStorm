@@ -29,7 +29,7 @@
                 android:topRightRadius="20dp"/>
             <solid android:color="@color/grayAccent"/>
 
-            <stroke android:width="0.6dp" android:color="@color/grayAccentLight"/>
+            <stroke android:width="0.5dp" android:color="@color/accentLightRipple"/>
         </shape>
     </item>
 </ripple>

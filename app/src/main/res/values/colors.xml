@@ -5,12 +5,14 @@
     <color name="colorAccent">#FFFFFF</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
-    <color name="grayPrimary">#141414</color>
-    <color name="grayAccent">#282828</color>
-    <color name="grayAccentLight">#3c3c3c</color>
-    <color name="accentLightRipple">#505050</color>
+    <color name="grayPrimary">#0e0e0e</color>
+    <color name="grayAccent">#191919</color>
+    <color name="grayAccentLight">#232323</color>
+    <color name="accentLightRipple">#323232</color>
     <color name="borderColor">#787878</color>
     <color name="yellow">#FFF553</color>
     <color name="progressBarBack">#323232</color>
     <color name="alphaWhite">#B3FFFFFF</color>
+    <color name="buttonColor">#323232</color>
+    <color name="buttonColorLight">#3c3c3c</color>
 </resources>
