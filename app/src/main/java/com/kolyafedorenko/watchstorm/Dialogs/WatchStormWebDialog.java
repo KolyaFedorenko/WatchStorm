@@ -61,7 +61,7 @@ public class WatchStormWebDialog extends CustomDialog {
             public void onClick(View v) {
                 try {
                     webCodeReference.setValue(webCode);
-                    Toast.makeText(dialog.getContext(),"Your 6-digit code has been saved", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(dialog.getContext(), "Your 6-digit code has been saved", Toast.LENGTH_SHORT).show();
                     dialog.dismiss();
                 } catch (Exception ignored) { }
             }
