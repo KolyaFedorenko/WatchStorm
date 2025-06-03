@@ -1,6 +1,6 @@
-![WatchStorm Image](https://i.ibb.co/bHhtNmC/Watch-Storm-Image2.jpg)
+![WatchStormWeb Image](https://github.com/KolyaFedorenko/WatchStormWeb/blob/feature/images/WatchStormImage.png)
 # WatchStorm
-[![CodeFactor](https://www.codefactor.io/repository/github/kolyafedorenko/watchstormsecond/badge)](https://www.codefactor.io/repository/github/kolyafedorenko/watchstormsecond)
+![GitHub Created At](https://img.shields.io/github/created-at/KolyaFedorenko/WatchStorm)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/60b72c3c67b94e57ab101d3e727a318a)](https://app.codacy.com/gh/KolyaFedorenko/WatchStormSecond/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/KolyaFedorenko/WatchStormSecond?color=brighteen)
 ![GitHub Release](https://img.shields.io/github/v/release/KolyaFedorenko/WatchStormSecond?color=brighteen)
