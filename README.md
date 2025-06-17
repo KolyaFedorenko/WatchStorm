@@ -16,7 +16,6 @@ WatchStorm is a mobile app for adding ratings to movies or TV shows you've watch
 - An automatically populated list of the user's favorite movies
 - Displaying the average audience rating of a movie if the movie was found via search
 - Verification system that allows the most active users to verify their account
-- Specifying a 6-digit code for the web version of the application (WatchStormWeb)
 
 ### Libraries used
 | Used library | Used to |
